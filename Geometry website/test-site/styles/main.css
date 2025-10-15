@@ -1,0 +1,178 @@
+html {
+   background-color: whitesmoke;
+}
+body {
+   font-family: 'Comic Sans MS', 'Comic Sans';
+}
+h1.ind {
+   display: flex;
+   justify-content: center;
+   font-size: 3em;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   background-color: white;
+}
+
+li, button {
+   font-family: 'Comic Sans MS', 'Comic Sans';
+   font-weight: 500;
+   font-size: 20px; /*меняем размер кнопок*/
+   color: black;
+   text-decoration: none;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 5% 50px;
+}
+
+.logo {
+   cursor: pointer;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.nav_links {
+   list-style: none;
+}
+
+.nav_links li {
+   display: inline-block;
+   padding: 0px 10px; /*расстояние между кнопками в навиг списке*/
+}
+
+.nav_links li a button.not_visited {
+   transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+   color: #0088a9;
+}
+
+button {
+   padding: 9px 25px; 
+   background-color: rgba(231, 172, 10, 1);
+   border: none;
+   border-radius: 50px;
+}
+button.visited {
+   padding: 9px 25px; 
+   background-color: rgb(126, 126, 126);
+   border: none;
+   border-radius: 50px;
+}
+button.not_visited{
+   padding: 9px 25px; 
+   background-color: rgb(231, 172, 10);
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+button.not_visited:hover {
+   background-color: rgba(231, 172, 10, 0.8);
+}
+
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+.E {
+   color: red;
+}
+
+.container {
+   display: flex;
+
+}
+footer.copyright {
+   margin-bottom: 10px;
+}
+
+.first {
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   align-items: center;
+}
+
+.paragraph {
+   font-size: 30px;
+   width: 40%;
+}
+
+.cen {
+   display: flex;
+   justify-content: center;
+}
+/*svg*/
+
+div.board {
+   width: 920px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+svg.drawing {
+   display: flex;
+   justify-content: center;
+   width: 920px;
+   height: 650px;
+   background-color: white;
+}
+
+.main_img {
+   border-radius: 50px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.copyright a {
+   font-size: 20px;
+}
+.copyright a:hover {
+   text-decoration: none;
+}
+
+div.err {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   align-items: center;
+}
+
+body.cr {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+button.adventure {
+   font-size: 35px;
+   padding: 18px 50px; 
+   background-color: rgb(231, 172, 10);
+   border: none;
+   border-radius: 150px;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+}
+button.adventure:hover {
+   background-color: rgba(231, 172, 10, 0.8);
+}

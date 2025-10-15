@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head> <!--в head содержатся то, что не видно пользователю: заголовок, ссылки на файлы css, ссылки на иконки и тп-->
+      <meta charset="utf-8" />
+      <title>Увлекательное путешествие в мир гЭометрии</title>
+      <link rel="stylesheet" href="../styles/shapes.css"/> <!--берём стили из такого-то файла-->
+      <link rel="stylesheet" href="../styles/main.css"/>
+   </head>
+   <body>
+		<header class="header">
+			<a href="index.html"><img class="logo" src="../images/geometric-puzzle-svgrepo-com.svg" alt="logo"></a>
+			<nav>
+				<ul class="nav_links">
+					<li><a class="cta" href="index.html"><button class="not_visited">Главная</button></a></li>
+					<li><button class="visited">Карта мира</button></li>
+					<li><a class="cta" href="contacts.html"><button class="not_visited">Контакты</button></a></li>
+				</ul>
+			</nav>
+			<!--ссылка на страницу с нами и контактами-->
+		</header>
+      <main>
+         <h1 class="ind"><span class="E">К</span>арта мира г<span class="E">Э</span>ометрии</h1>
+         <div class="board">
+            <svg class="drawing">
+               <a href="triangle.html"><polygon points="460,0 720,250 200,250" fill="#A62F20"/></a> <!--крыша-->
+               <polyline points="460,0 720,250 200,250 460,0"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="circle.html"><circle cx="460" cy="150" r="60" fill="lightblue"
+                  stroke-width="3" stroke="black"/></a>
+               <polyline points="401,150 519,150"
+               style="fill:none; stroke: black;stroke-width: 3;"/>
+               <polyline points="460,91 460,209"
+               style="fill:none; stroke: black;stroke-width: 3;"/>
+               <a href="trapezium.html"><polygon points="200,250 720,250 540,370 380,370" fill="#FFCC00"/></a> <!--трапеции-->
+               <polyline points="200,250 720,250 540,370 380,370 200,250"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="trapezium.html"><polygon points="540,370 720,250 720,650 540,530" fill="#44944A"/></a>
+               <polyline points="540,370 720,250 720,650 540,530 540,370"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="trapezium.html"><polygon points="540,530 720,650 200,650 380,530" fill="#FFCC00"/></a>
+               <polyline points="540,530 720,650 200,650 380,530 540,530"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="trapezium.html"><polygon points="380,530 200,650 200,250 380,370" fill="#44944A"/></a>
+               <polyline points="380,530 200,650 200,250 380,370 380,530"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="rectangle.html"><polygon points="380,370 540,370 540,530 380,530" fill="lightblue"/></a> 
+               <polyline points="380,370 540,370 540,530 380,530 380,370"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="rhomb.html"><polygon points="720,550 770,450 820,550 770,650" fill="rgb(150,75,0)"/></a> <!--правые ромбики-->
+               <polyline points="720,550 770,450 820,550 770,650 720,550"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="rhomb.html"><polygon points="820,550 870,450 920,550 870,650" fill="rgb(150,75,0)"/></a> 
+               <polyline points="820,550 870,450 920,550 870,650 820,550"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <polyline points="100,550 150,450 200,550 150,650 100,550"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="rhomb.html"><polygon points="0,550 50,450 100,550 50,650" fill="rgb(150,75,0)"/></a> <!--левые ромбики-->
+               <polyline points="0,550 50,450 100,550 50,650 0,550"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <a href="rhomb.html"><polygon points="100,550 150,450 200,550 150,650" fill="rgb(150,75,0)"/></a>
+               <polyline points="100,550 150,450 200,550 150,650 100,550"
+               style="fill:none; stroke: black;stroke-width: 2;"/>
+               <polyline
+               points="200,650 0,650 0,450 200,450"
+               style="fill: none; stroke: black;stroke-width: 3"/> <!--вокруг забора-->
+               <polyline
+               points="720,450 920,450 920,650 720,650"
+               style="fill: none; stroke: black;stroke-width: 3;"> <!--вокруг забора-->
+               </polyline>
+               <a href="404.html"><polygon points="900,0 920,0 910,30 900,20" fill="pink"/></a>
+            </svg>
+         </div>
+      </main>
+      <footer class="copyright">
+         © Авторские права принадлежат <a href="https://t.me/ddd_drach_ddd">Драч Даниилу </a> и <a href="https://t.me/paket8d">Щепину Кириллу</a>, 2024.
+      </footer>
+   </body>
+</html>
